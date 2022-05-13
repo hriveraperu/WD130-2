@@ -1,0 +1,73 @@
+body {
+    background-color: pink;
+    
+}
+
+header h1{
+    font-family: Arial;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+header h1:hover{
+    font-family: Arial;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    margin: 30px;
+}
+
+header p{
+    font-family: Arial;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+}
+
+header h3{
+    font-family: Arial;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+img {
+    display: block;
+    margin: 50px auto;
+    width: 20%;
+}
+
+ol{
+    font-family: "Arial Narrow";
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+
+}
+
+main h1 {
+    color: white;
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 100;
+    
+}
+
+footer p {
+    margin: 30px auto;
+    width: 25%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
