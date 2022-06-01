@@ -7,9 +7,9 @@
     margin-top: 10px;
     background-color: #D5CFE1;
     color: #3569F6;
-    border-radius: 10px;
-    margin-left: 90px;
-    margin-right: 90px;
+    border-radius: 0.25em;
+    margin-left: 1em;
+    margin-right: 1em;
     
 }
 
@@ -68,8 +68,8 @@ nav a:hover {
 }
 
 .book, .join {
-    background-color: #D5CFE1;
-    color: #3569F6;
+    background-color: #3569F6;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -285,5 +285,6 @@ nav {
     /* section.msg {
         background-color: #94958B;
     } */
+       
 
 }
