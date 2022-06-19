@@ -42,7 +42,7 @@ main section {
 }
 
 #background {
-    height: 725px;
+    height: 100%;
     background-color: #6f7364;
     grid-column: 1 / 11;
     grid-row: 4 / 9;
@@ -238,6 +238,53 @@ nav {
     grid-template-columns: repeat(10, 1fr);
     
 }
+
+div.river-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    width: 100%;
+
+}
+
+.first-river {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    float: right;
+}
+.first-river img {
+    width: 49%;
+    float: left;
+    
+}
+
+.second-river {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    width: 100%;
+    float: left;
+}
+
+.second-river img {
+    width: 49%;
+    float: right;
+    
+}
+
+.third-river {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    width: 100%;
+    float: right;
+}
+
+.third-river img {
+    width: 49%;
+    float: left;
+}
+
+
 
 
 /* media screen size  */
