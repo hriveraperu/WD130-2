@@ -258,7 +258,7 @@ div.river-grid {
 .first-river img {
     width: 49%;
     float: left;
-    
+    margin-right: 1em;
 }
 
 .second-river {
@@ -271,6 +271,7 @@ div.river-grid {
 .second-river img {
     width: 49%;
     float: right;
+    margin-left: 1em;
     
 }
 
@@ -284,12 +285,20 @@ div.river-grid {
 .third-river img {
     width: 49%;
     float: left;
+    margin-right: 1em;
 }
 
 .first-river p, .second-river p, .third-river p {
     color: #3569F6;
     font-size: .8em;
     padding-bottom: 15px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.first-river h2, .second-river h2, .third-river h2 {
+    margin-top: 1em;
+    margin-left: 0.5em;
 }
 
 
