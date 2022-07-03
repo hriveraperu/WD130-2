@@ -115,6 +115,7 @@ footer img {
     width: 2em;
     height: 2em;
     padding-top: 15px;
+    background-color: transparent;
 }
 
 h3 {
@@ -138,4 +139,10 @@ footer a:hover {
     text-decoration: none;
     color: #f4dbd8;
     background-color: #8b5fbf;
+}
+
+div.social a, div.social a:hover {
+    background-color: transparent;
+    text-decoration: none;
+
 }
