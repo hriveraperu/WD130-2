@@ -146,3 +146,53 @@ div.social a, div.social a:hover {
     text-decoration: none;
 
 }
+
+.expertise-part {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    width: 100%;
+    
+}
+
+.expertise-part img {
+    grid-column: 1/5;
+    grid-row: 1/10;
+    width: 100%;
+    height: 100%;
+}
+
+.language-part {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    width: 100%;
+       
+}
+
+.language-part img {
+    grid-column: 1/5;
+    grid-row: 1/10;
+    width: 100%;
+    height: 100%;
+}
+
+.text-box3 {
+    grid-row: 3/7;
+    text-align: center;
+    border-radius: 4%;
+    background-color: #FA7921;
+    color: #A30B37;
+    grid-column: 1/2;
+    
+}
+
+
+.text-box4 {
+    grid-row: 3/6;
+    text-align: center;
+    border-radius: 4%;
+    background-color: #FA7921;
+    color: #A30B37;
+    grid-column: 4/5;
+}
