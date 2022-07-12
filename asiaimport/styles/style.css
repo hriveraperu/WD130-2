@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    display: block;
+    max-width: 1600px;
+}
+
 
 header {
     background-color: #FA7921;
