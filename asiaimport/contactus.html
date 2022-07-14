@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asia Import Website | Home</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div id="full-body">
@@ -23,30 +24,31 @@
             <div id="feedback"></div>
 
             <form action="/my-handling-form-page" class="forms" method="post">
-                <ul>
-                    <div>
+                
+                
+                    <section class="contact-us">
+                    <div class="contact-h1">
                         <h1>Contact Us</h1>
                     </div>
-                    <div>
+                    <img class="contact-img" src="images/contactus.jpg" alt="contact-us">
+                    <div class="contact-box">
                         <label for="name">Name: </label>
                         <input type="text" id="name" name="user_name" />
                         <br>
-                    </div>
-                    <div>
+                    
                         <label for="mail">E-mail:</label>
                         <input type="email" id="mail" name="user_email" />
                         <br>
-                    </div>
-                    <div>
-                        <label for="msg">Message:</label>
+                    
+                        <label for="msg"><p>Message:</p></label>
                         <textarea id="msg" name="user_message"></textarea>
                         <br>
-                    </div>
-                    <div class="button">
+                    
                         <button type="submit">Send your message</button>
                         <br>
                     </div>
-                </ul>
+                    </section>
+                
             </form>
         </main>
         <footer>

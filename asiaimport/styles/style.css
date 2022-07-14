@@ -266,3 +266,75 @@ div.social a, div.social a:hover {
     grid-column: 1/5;    
     padding-top: 1.5em;
 }
+
+.contact-us {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 100%;
+    
+    
+       
+}
+
+.contact-us img {
+    grid-column: 1/5;
+    grid-row: 1/7;
+    width: 100%;
+    max-height: 100%;
+}
+
+.contact-h1 {
+    grid-row: 1/2;
+    text-align: center;
+    border-radius: 4%;
+    background-color: #FA7921;
+    color: #A30B37;
+    grid-column: 2/4;    
+    margin-top: 10px;
+    padding-top: 15px;
+    
+    z-index: 2;
+}
+
+.contact-box {
+    grid-row: 5/7;
+    text-align: center;
+    border-radius: 4%;
+    background-color: #FA7921;
+    color: #A30B37;
+    grid-column: 2/4;
+    font-size: 0.70em;
+}
+
+label {
+    
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Open Sans';
+    
+}
+
+label p {
+    margin-top: -50px;
+    font-family: 'Open Sans';
+    font-size: 1em;
+}
+
+input[type=text], select, textarea, input[type=email] {
+    
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+div.contact-box {
+    padding-top: 20px;
+}
