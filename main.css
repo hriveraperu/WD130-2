@@ -164,6 +164,7 @@ img.profile-pic {
     font-weight: 400;
     color: #333333;
     font-size: 20px;
+	text-align: center;
 }
 
 .text-title-company {
@@ -171,6 +172,7 @@ img.profile-pic {
     font-weight: 200;
     color: #333333;
     font-size: 12px;
+	text-align: center;
 }
 
 .text-detail {
